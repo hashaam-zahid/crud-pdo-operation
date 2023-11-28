@@ -33,14 +33,14 @@ endif;
 ```
 ## Folder Structure
 
-/configuration <br>
+`/configuration` <br>
             configuration.php <br>
-/dbconnect <br>
+`/dbconnect` <br>
          db_connect.php <br>
-/classes <br>
+`/classes` <br>
    country.php <br>
 
-Main directory <br>
+`Main directory` <br>
 
 country_process.php <br>
 
