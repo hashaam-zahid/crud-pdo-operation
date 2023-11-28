@@ -1,9 +1,14 @@
 {
-    "name": "hashaam/crud-pdo-operation",
+    "name": "hashaam/crud-ooo",
     "description": "PDO CRUD Operations",
     "keywords": ["php", "CRUD", "Operation"],
     "license": "MIT",
-    "require": {},
+    "require": {
+        "php": "^8.0",
+        "hashaam/crud-pdo-operation": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "YourNamespace\\": "classes/"
