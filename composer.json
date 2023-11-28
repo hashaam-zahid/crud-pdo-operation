@@ -1,7 +1,6 @@
 {
     "name": "hashaam/crud",
     "description": "PDO CRUD Operations",
-    "type": "library",
     "keywords": ["php", "CRUD", "Operation"],
     "license": "MIT",
     "require": {},
