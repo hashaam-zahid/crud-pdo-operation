@@ -1,17 +1,19 @@
 {
-    "name": "hashaam/crud-operation",
+    "name": "hashaam-zahid/crud-pdo-operation",
     "description": "PDO CRUD Operations",
-    "keywords": ["php", "CRUD", "Operation"],
+    "type": "library",
+    "keywords": ["php","CRUD","Operation"],
     "license": "MIT",
-    "require": {
-        "php": "^8.0",
-        "hashaam/crud-pdo-operation": "dev-master"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "autoload": {
-        "psr-4": {
-            "YourNamespace\\": "classes/"
+	 "authors": [
+        {
+            "name":"Hashaam Zahid",
+            "email": "hashaamzahid3@gmail.com"
         }
+    ],
+    "minimum-stability": "stable",
+    "require": {    },
+    "autoload": {
+        "psr-4": {  
+         "": "classes/"		}
     }
 }
