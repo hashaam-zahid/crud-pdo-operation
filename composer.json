@@ -5,9 +5,15 @@
     "keywords": ["php","CRUD","Operation"],
     "license": "MIT",
     "require": {
-        "php": ">=5.5.0, <9.0.0"
+        "php": "^8.0",
+        "hashaam-zahid/crud-pdo-operation": "dev-master"
     },
-    "minimum-stability": "dev",
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hashaam-zahid/crud-pdo-operation"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "YourNamespace\\": "classes/"
