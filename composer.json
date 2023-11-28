@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": ["php", "CRUD", "Operation"],
     "license": "MIT",
-    "require": {}, // If there are no dependencies, you can leave this section empty
+    "require": {},
     "autoload": {
         "psr-4": {
             "YourNamespace\\": "classes/"
