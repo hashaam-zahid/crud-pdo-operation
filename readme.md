@@ -19,15 +19,17 @@ $resultGetAllCountry = $objCountry->GetAllCountry();
 
 // Check if countries exist
 
-if ($resultGetAllCountry->num_rows > 0) {
-    while ($rowGetAllCountry = $resultGetAllCountry->fetch_array(MYSQLI_BOTH)) {
-    echo $rowGetAllCountry->name;
-}
-}
-else
-{
+if ($resultGetAllCountry->num_rows > 0):
+
+    while ($rowGetAllCountry = $resultGetAllCountry->fetch_array(MYSQLI_BOTH))
+   {
+         echo $rowGetAllCountry->name;
+   }
+
+else:
     echo ('Something went wrong while fetching country, Try Later');
-}
+
+endif;
 ```
 ## Folder Structure
 
