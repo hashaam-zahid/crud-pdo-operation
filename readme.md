@@ -24,10 +24,10 @@ country_process.php <br>
 ## Usage
 The primary goal of this project is to offer a maintainable and easily understandable solution for performing CRUD operations on a database. 
 It focuses on clean code practices to enhance readability, Reusability and ease of use for developers working with database entities.
-### `configuration.php`
+### `configuration/configuration.php`
 Contains a class with constants defining database connection details.
 
-### `db_connect.php`
+### `dbconnect/db_connect.php`
 Implements a class responsible for CRUD operations using PDO. It establishes a database connection and provides methods for insertion, selection, deletion, and updating records.
 
 ### `classes/country.php`
@@ -38,8 +38,8 @@ An example usage file where the `country` class methods are instantiated and dem
 
 ## Project Structure
 
-- `configuration.php`: Defines database configuration constants.
-- `db_connect.php`: Handles database connections and CRUD operations.
+- `configuration/configuration.php`: Defines database configuration constants.
+- `dbconnect/db_connect.php`: Handles database connections and CRUD operations.
 - `classes/country.php`: Manages operations related to the "country" entity.
 - `country_process.php`: Demonstrates the usage of the `country` class methods.
 
