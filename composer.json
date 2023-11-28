@@ -1,19 +1,10 @@
 {
-    "name": "hashaam-zahid/crud-pdo-operation",
+    "name": "hashaam/crud",
     "description": "PDO CRUD Operations",
     "type": "library",
-    "keywords": ["php","CRUD","Operation"],
+    "keywords": ["php", "CRUD", "Operation"],
     "license": "MIT",
-    "require": {
-        "php": "^8.0",
-        "hashaam-zahid/crud-pdo-operation": "dev-master"
-    },
-     "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/hashaam-zahid/crud-pdo-operation"
-        }
-    ],
+    "require": {}, // If there are no dependencies, you can leave this section empty
     "autoload": {
         "psr-4": {
             "YourNamespace\\": "classes/"
