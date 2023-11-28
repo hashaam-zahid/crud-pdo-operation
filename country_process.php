@@ -9,6 +9,8 @@ $objCountry=new country();
 
 $resultGetAllCountry=$objCountry->GetAllCountry();
 
+// check countries exist 
+if($resultGetAllCountry->num_rows > 0) :
 while($rowGetAllCountry=$resultGetAllCountry->fetch_array(MYSQLI_BOTH))
 {
   
@@ -16,7 +18,9 @@ while($rowGetAllCountry=$resultGetAllCountry->fetch_array(MYSQLI_BOTH))
   echo    '<br>';
   echo  $rowGetAllCountry->id;
 }
-
+else :
+	echo ('Something went wrong while fetching country, Try Later');
+endif;
 
 // Get City By Country Id
 
