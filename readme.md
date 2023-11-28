@@ -9,16 +9,16 @@ composer require hashaam-zahid/crud-pdo-operation
 
 ## Folder Structure
 
-/configuration
-            configuration.php
-/dbconnect
-         db_connect.php
-/classes
-   country.php
+/configuration <br>
+            configuration.php <br>
+/dbconnect <br>
+         db_connect.php <br>
+/classes <br>
+   country.php <br>
 
-Main directory
+Main directory <br>
 
-country_process.php
+country_process.php <br>
 
 
 ## Usage
