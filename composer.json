@@ -1,5 +1,5 @@
 {
-    "name": "crud-pdo-operation",
+    "name": "hashaam-zahid/crud-pdo-operation",
     "description": "PDO CRUD Operations",
     "type": "library",
     "keywords": ["php","CRUD","Operation"],
