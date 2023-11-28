@@ -1,0 +1,13 @@
+{
+    "name": "hashaam-zahid/crud-pdo-operation",
+    "description": "PDO CRUD Operations",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "classes/"
+        }
+    }
+}
