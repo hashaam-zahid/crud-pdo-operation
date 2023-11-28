@@ -1,6 +1,11 @@
-# CRUD OOP with PDO 
+# CRUD OOP with PDO Package
 
 This project implements a CRUD (Create, Read, Update, Delete) operations package using Object-Oriented Programming (OOP) with PDO in PHP. It includes classes for database configuration, database connection, and operations on a "country" entity example.
+## Contrubition
+[Hashaam Zahid] (https://www.linkedin.com/in/hashaam-zahid)
+
+## Install Setup
+composer require hashaam-zahid/crud-pdo-operation
 
 ## Folder Structure
 
